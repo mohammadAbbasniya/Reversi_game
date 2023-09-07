@@ -1,5 +1,5 @@
 # Reversi (Othello) game
-Implementation of Reversi console game in python with an AI player that is developed by Minimax algorithm.
+Implementation of Reversi console game in Python with an AI player that is developed by Minimax algorithm.
 
 
 ## About Reversi
@@ -19,16 +19,16 @@ There are sixty-four identical game pieces called disks, which are light on one 
       This file contains `Player` _abstract_ class which is the base class for any player in the game. 
 
     - #### 📄 file [player_ai.py]
-      This file contains `AIPlayer` class that inherited from `Player` class. It uses **Minimax** algorithm to provide an action for player. 
+      This file contains `AIPlayer` class that is inherited from `Player` class. It uses the **Minimax** algorithm to provide an action for the player. 
 
     - #### 📄 file [player_human.py]
-      This file contains `HumanPlayer` class that inherited from `Player` class. It uses console interface and asks for an action.
+      This file contains `HumanPlayer` class that is inherited from `Player` class. It uses console interface and asks for an action.
 
     - #### 📄 file [reversi_console.py]
-      This file contains `ReversiConsoleUI` class which uses player classes and `Reversi` class to implement a console based reversi game. This class controls the flow of game and ask players for action. 
+      This file contains `ReversiConsoleUI` class which uses player classes and `Reversi` class to implement a console-based reversi game. This class controls the flow of the game and asks players for action. 
 
 - ### 📄 file [main.py]
-  These file is the starting point of game. This will start console game by asking for mode of game and the color of human player:
+  This file is the starting point of game. This will start console game by asking for the mode of game and the color of the human player:
 
 <p align='center'>
   <img width="300" alt="genetic-example" src="README.imgs/start.png">
